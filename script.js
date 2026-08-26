@@ -1,4 +1,6 @@
 import { salvarInscricaoFirebase, escutarConfirmados } from "./inscricoes-service.js";
+import { collection, onSnapshot } from "firebase/firestore";
+
 
 const form = document.getElementById("formBarretos");
 const setorSelect = document.getElementById("setorShow");
